@@ -1,0 +1,43 @@
+{
+  "totalAttack": {
+    "number": [8542],
+    "content": "{nt}",
+    "style": {
+      "fill": "#3de7c9",
+      "fontSize": 35
+    }
+  },
+  "protectionData": {
+    "data": [
+      { "name": "防火墙", "value": 80 },
+      { "name": "入侵检测", "value": 65 },
+      { "name": "流量清洗", "value": 45 },
+      { "name": "安全审计", "value": 90 }
+    ],
+    "img": []
+  },
+  "trayData": {
+    "challenges": [
+      { "id": "t1", "name": "签到题", "level": 1, "color": "#00ffff" },
+      { "id": "t2", "name": "Web基础", "level": 2, "color": "#00f2ff" },
+      { "id": "t3", "name": "Pwn入门", "level": 3, "color": "#ffaa00" },
+      { "id": "t4", "name": "逆向工程", "level": 4, "color": "#ff0055" },
+      { "id": "t5", "name": "地狱溢出", "level": 5, "color": "#ff0000" }
+    ],
+    "players": [
+      { "name": "选手Alpha", "x": 50, "z": 50, "color": "#ffffff" },
+      { "name": "选手Beta", "x": -60, "z": -20, "color": "#ffff00" }
+    ]
+  },
+  "attackBoard": {
+    "header": ["时间", "选手", "题目", "状态"],
+    "data": [
+      ["22:10", "选手Alpha", "Web基础", "<span style='color:#00f2ff;'>解出</span>"],
+      ["22:12", "选手Beta", "签到题", "<span style='color:#00f2ff;'>解出</span>"],
+      ["22:15", "选手Alpha", "Pwn入门", "<span style='color:#ffaa00;'>尝试</span>"]
+    ],
+    "index": true,
+    "columnWidth": [50, 80, 100, 100],
+    "align": ["center"]
+  }
+}

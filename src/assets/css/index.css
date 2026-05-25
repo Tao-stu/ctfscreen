@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 62.5%;
+}
+
+body,
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:hover {
+    filter: alpha(opacity=90);
+    opacity: 0.9;
+}
+
+.tc {
+    text-align: center;
+}
+
+.tr {
+    text-align: right;
+}
+
+.tl {
+    text-align: left;
+}
+
+/* 主体 */
+.content {
+    color: #fff;
+    background: #000;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg {
+    background: url('../bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+.module-box {
+    display: flex;
+    /* 两端对齐 */
+    justify-content: space-around;
+    margin: 5px;
+}
+
+.d-flex {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-middle {
+    align-self: center;
+}
+
+.tbg {
+    display: flex;
+    background: url('../head.png') no-repeat center center;
+
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+font-size: 26px;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 6px;
+    margin: 0 auto;
+    white-space: nowrap;
+}

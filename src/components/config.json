@@ -1,0 +1,68 @@
+{
+  "title": "某某杯网络安全大赛实时大屏",
+  "challenges": [
+    {
+      "name": "Web-Shell-Upload",
+      "difficulty": "simple",
+      "points": 100
+    },
+    {
+      "name": "XSS-Reflect",
+      "difficulty": "simple",
+      "points": 50
+    },
+    {
+      "name": "Dir-Bypass",
+      "difficulty": "simple",
+      "points": 80
+    },
+    {
+      "name": "SQL-Inject-Blind",
+      "difficulty": "medium",
+      "points": 200
+    },
+    {
+      "name": "SSRF-Proxy",
+      "difficulty": "medium",
+      "points": 250
+    },
+    {
+      "name": "Deserialization",
+      "difficulty": "medium",
+      "points": 300
+    },
+    {
+      "name": "CVE-2024-XP",
+      "difficulty": "hard",
+      "points": 500
+    },
+    {
+      "name": "Buffer-Overflow",
+      "difficulty": "hard",
+      "points": 450
+    },
+    {
+      "name": "Kernel-ROP",
+      "difficulty": "hard",
+      "points": 600
+    }
+  ],
+  "players": [
+    {
+      "name": "ZeroDay_Hunter",
+      "target": "CVE-2024-XP"
+    },
+    {
+      "name": "Kernel_Master",
+      "target": "Kernel-ROP"
+    },
+    {
+      "name": "Script_Kiddie",
+      "target": ""
+    },
+    {
+      "name": "Alice_Sec",
+      "target": ""
+    }
+  ]
+}
